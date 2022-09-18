@@ -21,7 +21,7 @@ html {
 @media screen and (max-width: 500px) {
   .header {
     padding: 0.6rem 2rem;
-    font-size: 1.4rem;
+    font-size: 100%;
   }
 }
 
@@ -70,9 +70,15 @@ html {
 
 .hero {
   background-color: #c5cae9;
-  padding: 60px 45px;
+  padding: 6rem 4.5rem;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .hero {
+    padding: 5rem 3rem;
+  }
 }
 
 .inner-hero {
