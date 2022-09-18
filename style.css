@@ -54,6 +54,10 @@ html {
   .nav {
     justify-content: space-between;
   }
+
+  .nav li {
+    margin-left: 0;
+  }
 }
 
 .nav a {
