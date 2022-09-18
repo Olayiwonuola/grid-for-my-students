@@ -45,11 +45,11 @@ html {
   padding: 0;
 }
 
-// @media screen and (max-width: 500px) {
-//   .nav {
-//     justify-content: space-between;
-//   }
-// }
+@media screen and (max-width: 500px) {
+  .nav {
+    justify-content: space-between;
+  }
+}
 
 .nav a {
   color: #fff;
@@ -71,12 +71,6 @@ html {
 
 .nav li {
   margin-left: 2rem;
-}
-
-@media screen and (max-width: 500px) {
-  .nav li {
-    margin-left: 3rem;
-  }
 }
 
 .hero {
