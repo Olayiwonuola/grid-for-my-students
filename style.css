@@ -45,6 +45,10 @@ html {
   padding: 0;
 }
 
+.nav li {
+  margin-left: 2rem;
+}
+
 @media screen and (max-width: 500px) {
   .nav {
     justify-content: space-between;
@@ -67,10 +71,6 @@ html {
 .nav a:hover {
   color: #c5cae9;
   transform: rotate(6deg) scale(1.2);
-}
-
-.nav li {
-  margin-left: 2rem;
 }
 
 .hero {
