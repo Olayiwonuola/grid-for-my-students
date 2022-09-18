@@ -98,12 +98,12 @@ html {
 
 @media screen and (max-width: 500px) {
   .inner-hero h1 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
 .inner-hero p {
-  font-size: 2rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   margin: 20px 0;
 }
