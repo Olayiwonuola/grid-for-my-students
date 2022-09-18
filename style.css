@@ -58,6 +58,12 @@ html {
   transition: all 0.3s ease-out;
 }
 
+@media screen and (max-width: 500px) {
+  .nav a {
+    font-size: 200%;
+  }
+}
+
 .nav a:hover {
   color: #c5cae9;
   transform: rotate(6deg) scale(1.2);
